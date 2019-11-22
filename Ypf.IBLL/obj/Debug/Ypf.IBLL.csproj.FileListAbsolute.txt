@@ -1,0 +1,4 @@
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.IBLL\bin\Debug\Ypf.IBLL.dll
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.IBLL\bin\Debug\Ypf.IBLL.pdb
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.IBLL\obj\Debug\Ypf.IBLL.dll
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.IBLL\obj\Debug\Ypf.IBLL.pdb
