@@ -77,6 +77,34 @@ namespace ClickTest002
             Console.WriteLine(result7);
             Console.WriteLine(result8);
 
+            //AutoFac+反射(通过配置文件获取)
+            Console.WriteLine("通过配置文件获取:");
+            ContainerBuilder builder3 = new ContainerBuilder();
+            string DLLName = ConfigurationManager.AppSettings["DllName"].ToString();
+            Assembly ass3 = Assembly.Load(DLLName);
+            builder3.RegisterAssemblyTypes(ass3).AsImplementedInterfaces();
+            IContainer resolver3 = builder3.Build();
+            IUserBLL iuserBLL3 = resolver3.Resolve<IUserBLL>();
+            IPeopleBLL ipeopleBLL3 = resolver3.Resolve<IPeopleBLL>();
+            var result9 = iuserBLL3.GetUserInfor();
+            var result10 = ipeopleBLL3.Introduce();
+            Console.WriteLine(result9);
+            Console.WriteLine(result10);
+
+            //PropertiesAutowired(属性的自动注入)
+            Console.WriteLine("PropertiesAutowired(属性的自动注入):");
+            ContainerBuilder builder4 = new ContainerBuilder();
+            Assembly ass4 = Assembly.Load(DLLName);
+            builder4.RegisterAssemblyTypes(ass4).AsImplementedInterfaces().PropertiesAutowired();
+            IContainer resolver4 = builder4.Build();
+            IRoleBLL iroleBLL = resolver4.Resolve<IRoleBLL>();
+            var result11 = iroleBLL.ShowDIDemo();
+            Console.WriteLine(result11);
+
+
+
+
+
 
 
 
