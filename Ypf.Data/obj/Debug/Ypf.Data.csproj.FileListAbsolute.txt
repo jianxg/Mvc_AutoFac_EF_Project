@@ -1,5 +1,4 @@
 D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.Data\bin\Debug\Ypf.Data.dll
 D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.Data\bin\Debug\Ypf.Data.pdb
-D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.Data\obj\Debug\Ypf.Data.csprojResolveAssemblyReference.cache
 D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.Data\obj\Debug\Ypf.Data.dll
 D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\Ypf.Data\obj\Debug\Ypf.Data.pdb

@@ -1,0 +1,2 @@
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest001\obj\Debug\ClickTest001.csprojResolveAssemblyReference.cache
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest001\bin\Debug\ClickTest001.exe.config

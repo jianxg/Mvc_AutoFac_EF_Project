@@ -1,0 +1,13 @@
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\ClickTest002.exe.config
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\ClickTest002.exe
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\ClickTest002.pdb
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\obj\Debug\ClickTest002.exe
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\obj\Debug\ClickTest002.pdb
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\Autofac.dll
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\Ypf.BLL.dll
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\Ypf.IBLL.dll
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\Ypf.BLL.pdb
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\Ypf.IBLL.pdb
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\Autofac.pdb
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\bin\Debug\Autofac.xml
+D:\jianxg\练习代码\Mvc_AutoFac_EF_Project\ClickTest002\obj\Debug\ClickTest002.csprojResolveAssemblyReference.cache

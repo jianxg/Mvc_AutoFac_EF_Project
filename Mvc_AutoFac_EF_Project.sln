@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ypf.IBLL", "Ypf.IBLL\Ypf.IB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTest001", "ClickTest001\ClickTest001.csproj", "{F22D1FFE-06E2-4850-8987-AA3C8C52D893}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTest002", "ClickTest002\ClickTest002.csproj", "{D670981D-74C5-44E3-A1EF-BB3EC413C427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F22D1FFE-06E2-4850-8987-AA3C8C52D893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F22D1FFE-06E2-4850-8987-AA3C8C52D893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F22D1FFE-06E2-4850-8987-AA3C8C52D893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D670981D-74C5-44E3-A1EF-BB3EC413C427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D670981D-74C5-44E3-A1EF-BB3EC413C427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D670981D-74C5-44E3-A1EF-BB3EC413C427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D670981D-74C5-44E3-A1EF-BB3EC413C427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
