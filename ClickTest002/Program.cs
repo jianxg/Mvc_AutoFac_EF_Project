@@ -101,10 +101,39 @@ namespace ClickTest002
             var result11 = iroleBLL.ShowDIDemo();
             Console.WriteLine(result11);
 
+            //1个接口多个实现类的情况
+            Console.WriteLine("1个接口多个实现类的情况");
+            ContainerBuilder builder5 = new ContainerBuilder();
+            Assembly ass5 = Assembly.Load(DLLName);
+            builder5.RegisterAssemblyTypes(ass5).AsImplementedInterfaces();
+            IContainer resolver5 = builder5.Build();
+            IEnumerable<IAnimalBLL> blls = resolver5.Resolve<IEnumerable<IAnimalBLL>>();
+            foreach (var animalBll in blls)
+            {
+                Console.WriteLine(animalBll.GetType());
+                Console.WriteLine(animalBll.Introduce());
+            }
 
+            //AutoFac的几种常见生命周期
+            Console.WriteLine("AutoFac的几种常见生命周期:InstancePerDependency");
+            ContainerBuilder builder6 = new ContainerBuilder();
+            Assembly ass6 = Assembly.Load(DLLName);
+            builder6.RegisterAssemblyTypes(ass6).AsImplementedInterfaces().InstancePerDependency();
+            IContainer resolver6 = builder6.Build();
+            IUserBLL iUserBLL1 = resolver6.Resolve<IUserBLL>();
+            IUserBLL iUserBLL2 = resolver6.Resolve<IUserBLL>();
+            Console.WriteLine(object.ReferenceEquals(iUserBLL1, iUserBLL2));
 
+            Console.WriteLine("AutoFac的几种常见生命周期:SingleInstance,单例，只有在第一次请求的时候创建");
+            ContainerBuilder builder7 = new ContainerBuilder();
+            Assembly ass7 = Assembly.Load(DLLName);
+            builder7.RegisterAssemblyTypes(ass7).AsImplementedInterfaces().SingleInstance();
+            IContainer resolver7 = builder7.Build();
+            IUserBLL iUserBLL3 = resolver7.Resolve<IUserBLL>();
+            IUserBLL iUserBLL4 = resolver7.Resolve<IUserBLL>();
+            Console.WriteLine(object.ReferenceEquals(iUserBLL3,iUserBLL4));
 
-
+            Console.WriteLine();
 
 
 
@@ -113,8 +142,6 @@ namespace ClickTest002
 
         /// <summary>
         ///  简单工厂，隔离对象的创建
-        ///  
-        /// 
         /// </summary>
         public class SimpleFactory
         {
@@ -128,7 +155,6 @@ namespace ClickTest002
                 IUserBLL ibll = (IUserBLL)myUserBLL;
                 return ibll;
             }
-
         }
     }
 }
