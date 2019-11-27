@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTest001", "ClickTest00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickTest002", "ClickTest002\ClickTest002.csproj", "{D670981D-74C5-44E3-A1EF-BB3EC413C427}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTest001", "MVCTest001\MVCTest001.csproj", "{3DF55544-1B3D-45C4-9368-1607C1F92155}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D670981D-74C5-44E3-A1EF-BB3EC413C427}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D670981D-74C5-44E3-A1EF-BB3EC413C427}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D670981D-74C5-44E3-A1EF-BB3EC413C427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DF55544-1B3D-45C4-9368-1607C1F92155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF55544-1B3D-45C4-9368-1607C1F92155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF55544-1B3D-45C4-9368-1607C1F92155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF55544-1B3D-45C4-9368-1607C1F92155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

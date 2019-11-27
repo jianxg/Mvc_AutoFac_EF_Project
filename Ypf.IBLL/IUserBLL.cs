@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ypf.IBLL
 {
-    public interface IUserBLL
+    public interface IUserBLL: IBLLSupport
     {
         string GetUserInfor();
     }

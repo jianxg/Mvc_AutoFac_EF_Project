@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAnimalBLL.cs" />
+    <Compile Include="IBLLSupport.cs" />
     <Compile Include="IPeopleBLL.cs" />
     <Compile Include="IRoleBLL.cs" />
     <Compile Include="IUserBLL.cs" />
