@@ -1,0 +1,42 @@
+﻿
+@{
+    Layout = null;
+}
+@model MvcDemo.ViewModels.Models.SysUser
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div>
+        <h2>Edit</h2>
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(model => model.Id)
+            <div>
+                @Html.LabelFor(model => model.UserName);
+                @Html.EditorFor(model => model.UserName);
+            </div>
+            <div>
+                @Html.LabelFor(model => model.Email);
+                @Html.EditorFor(model => model.Email);
+            </div>
+            <div>
+                @Html.LabelFor(model => model.PassWord);
+                @Html.PasswordFor(model => model.PassWord);
+            </div>
+
+            <div>
+                <input type="submit" value="Save" />
+            </div>
+        }
+        <div>
+            @Html.ActionLink("Back to List","Index")
+        </div>
+    </div>
+</body>
+</html>
