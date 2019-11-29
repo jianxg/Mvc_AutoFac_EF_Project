@@ -1,4 +1,5 @@
 ﻿using MvcDemo.DAL;
+using MvcDemo.Repositories;
 using MvcDemo.ViewModels.Models;
 using System;
 using System.Collections.Generic;
@@ -160,8 +161,11 @@ namespace MvcDemo.Controllers
         [HttpPost]
         public ActionResult Create(SysUser sysUser)
         {
-            db.SysUser.Add(sysUser);
-            db.SaveChanges();
+            //db.SysUser.Add(sysUser);
+            //db.SaveChanges();
+
+            ISysUserRepository isur = new SysUserRepository();
+            isur.Add(sysUser);
             return RedirectToAction("Index");
         }
 
@@ -206,9 +210,13 @@ namespace MvcDemo.Controllers
         [HttpPost,ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            SysUser sysUser = db.SysUser.Find(id);
-            db.SysUser.Remove(sysUser);
-            db.SaveChanges();
+            //SysUser sysUser = db.SysUser.Find(id);
+            //db.SysUser.Remove(sysUser);
+            //db.SaveChanges();
+
+            ISysUserRepository isur = new SysUserRepository();
+            isur.Delete(id);
+
             return RedirectToAction("Index");
         }
 
