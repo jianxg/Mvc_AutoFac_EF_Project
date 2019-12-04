@@ -535,6 +535,8 @@
     <Content Include="OpenSource\nuget\bootstrap.less.nuspec" />
     <Content Include="OpenSource\nuget\bootstrap.nuspec" />
     <Content Include="OpenSource\nuget\MyGet.ps1" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
